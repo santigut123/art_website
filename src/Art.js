@@ -1,8 +1,8 @@
-
-
 const Art =() =>{
   return(
-    <h1>Hello ARt</h1>
+    <div className="page">
+    <h1>Artwork</h1>
+    </div>
   )
 }
 export default Art;
