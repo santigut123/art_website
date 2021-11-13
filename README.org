@@ -1,0 +1,2 @@
+* My Art Website
+Outside of programming, I am a surrealist/low-brow Artist. I thought I should make my website in order to have more control over its functionality and style. I used React, CSS,HTML and javascript to write it. In the future I would like to migrate the site over to Hugo for more support for a larger media gallery.

@@ -1,7 +1,8 @@
+import Gallery from "./Gallery"
 const Art =() =>{
   return(
     <div className="page">
-    <h1>Artwork</h1>
+    <Gallery/>
     </div>
   )
 }
