@@ -7,7 +7,7 @@ const Gallery = () =>{
     <SRLWrapper >
     <div id="gallery-container">
       { P2020.map(({id, src, title, description}) =>
-        <img key={id} src={src} title={title} alt={description} className="gallery_img"/>
+        <img key={id} src={src} alt={description} className="gallery_img"/>
 
       )}
       </div>

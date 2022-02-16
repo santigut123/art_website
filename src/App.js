@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Switch,Redirect} from 'react-router-dom';
 import Navbar from "./Navbar"
 import Art from "./Art"
 import About from "./About"
@@ -10,6 +10,9 @@ function App() {
         <Navbar/>
         <div className="content">
           <Switch>
+            <Route exact path= "/">
+              <Redirect to="/Art"/>
+            </Route>
             <Route exact path="/Art">
               <Art/>
             </Route>

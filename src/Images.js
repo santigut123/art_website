@@ -2,63 +2,62 @@ const P2020 = [
   {
     id:1,
     src:"./images/paintings/2019_2020/1.jpg",
-    title:"Peace",
-    description:"a painting"
+    description:"Peace"
   },
   {
     id:2 ,
     src:"/images/paintings/2019_2020/2.jpg",
-    title:"Peace"
+    description:"Escape From Consumption"
   },
   {
     id:3,
     src:"./images/paintings/2019_2020/3.jpg",
-    title:"Peace"
+    description:"Peaceful Death Compound"
   },
   {
     id:4,
     src:"./images/paintings/2019_2020/4.jpg",
-    title:"Peace"
+    description:"Mirror"
   },
   {
     id:5,
     src:"./images/paintings/2019_2020/5.jpg",
-    title:"Peace"
+    description:"Transparent Horizon"
   },
   {
     id:6,
     src:"./images/paintings/2019_2020/6.jpg",
-    title:"Peace"
+    description:"Two of me in Montana"
   },
   {
     id:7,
     src:"./images/paintings/2019_2020/7.jpg",
-    title:"Peace"
+    description:"Crying From Fingers"
   },
   {
     id:8,
     src:"./images/paintings/2019_2020/8.jpg",
-    title:"Peace"
+    description:"Squeeze"
   },
   {
     id:9,
     src:"./images/paintings/2019_2020/9.jpg",
-    title:"Peace"
+    description:"Chef's Special"
   },
   {
     id:10,
     src:"./images/paintings/2019_2020/10.jpg",
-    title:"Peace"
+    title:"Why Guy in Tub"
   },
   {
     id:11,
     src:"./images/paintings/2019_2020/11.jpg",
-    title:"Peace"
+    description:"Self Acutualized Apocalypse"
   },
   {
     id:12,
     src:"./images/paintings/2019_2020/12.jpg",
-    title:"Peace"
+    description:"Don't Watch"
   }
 ]
 
