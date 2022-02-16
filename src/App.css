@@ -43,3 +43,9 @@
     width: 90%;
   }
 }
+.yearButton {
+    font-size: 15px;
+}
+.yearButton.selected {
+    background-color:darkgreen;
+}
