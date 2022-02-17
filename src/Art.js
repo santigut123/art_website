@@ -1,24 +1,28 @@
 import Gallery from "./Gallery"
 import{useState} from 'react'
-const artYears = ["2020 and before","2021","2022"]
+const categories = ["Finished Paintings","Failed Paintings"]
+// this function deals with the difference in label and year
+const convertLabelToYear = (label) => {
+  if (label==="2020s") return "2020";
+  return label;
+}
 const Art =() =>{
+  const defaultYear=artYears[artYears.length-1];
+  const [category,setCategory] = useState(defaultYear)
+  // This function just makes the buttons for each year in the artYears array, and highlights the curYear
+  const makeYearButtons = (selected) => {
 
-  let makeYearButtons = (curYear) => {
-    let buttons = artYears.map((item,index)=>{
-      let className = "yearButton";
-      if(item===curYear){
+    let buttons = categories.map((item,index)=>{
+      let className = "categoryButton";
+      if(item===selected){
         className+= " selected";
       }
-      return <button key={item} className={className} onClick ={()=>changeYear(item)}>{item}</button>
+      return <button key={item} className={className} onClick ={()=>changeYear(item)}>{item}</button>;
     })
     return buttons;
   }
 
-  const defaultYear=artYears[artYears.length-1];
-
-  const [year,setYear] = useState(defaultYear)
-
-  let changeYear = (year) =>{
+  const changeYear = (year) =>{
     setYear(year);
   }
 
@@ -27,7 +31,7 @@ const Art =() =>{
     <div className= "yearButtons">
       {makeYearButtons(year)}
     </div>
-      <Gallery year={year}/>
+      <Gallery curYear={convertLabelToYear(year)}/>
     </div>
   )
 }

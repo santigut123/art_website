@@ -60,5 +60,27 @@ const P2020 = [
     description:"Don't Watch"
   }
 ]
+const P2021 = [
+  {
+    id:13,
+    src:"./images/paintings/2021/1.jpg",
+    description:"Existential terror, God, a crowd"
+  },
+  {
+    id:14 ,
+    src:"/images/paintings/2021/2.jpg",
+    description:"Szumlanski's Class"
+  },
+  {
+    id:15,
+    src:"./images/paintings/2021/3.jpg",
+    description:"Peaceful Death Compound"
+  },
+  {
+    id:16,
+    src:"./images/paintings/2021/4.jpg",
+    description:"Hanging on to the family tree"
+  }
+  ]
 
-export default P2020
+export {P2020, P2021}
