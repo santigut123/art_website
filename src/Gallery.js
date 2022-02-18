@@ -1,18 +1,19 @@
-import {P2020,P2021} from "./Images"
+import {Paintings} from "./Images"
 import SimpleReactLightbox,{SRLWrapper} from "simple-react-lightbox";
-const Gallery = ({curYear}) =>{
-  const getPhotosByYear = (year) => {
-  if (year==="2020") return P2020;
-  if (year==="2021") return P2021;
+const Gallery = ({curCat}) =>{
+  const getPhotosByCategory = (cat) => {
+    if(cat==="Finished Paintings") return Paintings;
+
   }
-  let curGal = getPhotosByYear(curYear);
+  let curGal = getPhotosByCategory(curCat);
 
   return (
     <SRLWrapper >
     <div id="gallery-container">
-      {curGal?.map(({id, src, title, description}) =>
-        <img key={id} src={src} alt={description} className="gallery_img"/>
-
+      {curGal?.map(({id, src,thumbnail, title, description}) =>
+        <a href={src} className="gallery_img">
+        <img key={id} src={thumbnail} alt={description} className="gallery_img"/>
+        </a>
       )}
       </div>
     </SRLWrapper>

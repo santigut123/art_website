@@ -1,86 +1,99 @@
-const P2020 = [
+const Paintings = [
   {
-    id:1,
-    src:"./images/paintings/2019_2020/1.jpg",
-    description:"Peace"
+    id:17,
+    src:"./images/paintings/fullSize/17.jpg",
+    thumbnail:"/images/paintings/thumbNails/17.jpg",
+    description:"Hanging on to the family tree"
   },
   {
-    id:2 ,
-    src:"/images/paintings/2019_2020/2.jpg",
-    description:"Escape From Consumption"
-  },
-  {
-    id:3,
-    src:"./images/paintings/2019_2020/3.jpg",
-    description:"Peaceful Death Compound"
-  },
-  {
-    id:4,
-    src:"./images/paintings/2019_2020/4.jpg",
-    description:"Mirror"
-  },
-  {
-    id:5,
-    src:"./images/paintings/2019_2020/5.jpg",
-    description:"Transparent Horizon"
-  },
-  {
-    id:6,
-    src:"./images/paintings/2019_2020/6.jpg",
-    description:"Two of me in Montana"
-  },
-  {
-    id:7,
-    src:"./images/paintings/2019_2020/7.jpg",
-    description:"Crying From Fingers"
-  },
-  {
-    id:8,
-    src:"./images/paintings/2019_2020/8.jpg",
-    description:"Squeeze"
-  },
-  {
-    id:9,
-    src:"./images/paintings/2019_2020/9.jpg",
-    description:"Chef's Special"
-  },
-  {
-    id:10,
-    src:"./images/paintings/2019_2020/10.jpg",
-    title:"Why Guy in Tub"
-  },
-  {
-    id:11,
-    src:"./images/paintings/2019_2020/11.jpg",
-    description:"Self Acutualized Apocalypse"
-  },
-  {
-    id:12,
-    src:"./images/paintings/2019_2020/12.jpg",
-    description:"Don't Watch"
-  }
-]
-const P2021 = [
-  {
-    id:13,
-    src:"./images/paintings/2021/1.jpg",
-    description:"Existential terror, God, a crowd"
-  },
-  {
-    id:14 ,
-    src:"/images/paintings/2021/2.jpg",
+    id:16 ,
+    src:"./images/paintings/fullSize/16.jpg",
+    thumbnail:"/images/paintings/thumbNails/16.jpg",
     description:"Szumlanski's Class"
   },
   {
     id:15,
-    src:"./images/paintings/2021/3.jpg",
+    src:"./images/paintings/fullSize/15.jpg",
+    thumbnail:"/images/paintings/thumbNails/15.jpg",
+    description:"Existential terror, God, and a crowd"
+  },
+  {
+    id:14,
+    src:"./images/paintings/fullSize/14.jpg",
+    thumbnail:"/images/paintings/thumbNails/14.jpg",
+    description:"A Prayer"
+  },
+  {
+    id:13,
+    src:"./images/paintings/fullSize/13.jpg",
+    thumbnail:"/images/paintings/thumbNails/13.jpg",
     description:"Peaceful Death Compound"
   },
   {
-    id:16,
-    src:"./images/paintings/2021/4.jpg",
-    description:"Hanging on to the family tree"
+    id:11 ,
+    src:"./images/paintings/fullSize/11.jpg",
+    thumbnail:"/images/paintings/thumbNails/11.jpg",
+    description:"Two of me in Montana"
+  },
+  {
+    id:10,
+    src:"./images/paintings/fullSize/10.jpg",
+    thumbnail:"/images/paintings/thumbNails/10.jpg",
+    description:"Transparent Horizon"
+  },
+  {
+    id:9,
+    src:"./images/paintings/fullSize/9.jpg",
+    thumbnail:"/images/paintings/thumbNails/9.jpg",
+    description:"Escape From Consumption"
+  },
+  {
+    id:8,
+    src:"./images/paintings/fullSize/8.jpg",
+    thumbnail:"/images/paintings/thumbNails/8.jpg",
+    description:"Crying from Fingers"
+  },
+  {
+    id:7,
+    src:"./images/paintings/fullSize/7.jpg",
+    thumbnail:"/images/paintings/thumbNails/7.jpg",
+    description:"Two of me in Montana"
+  },
+  {
+    id:6,
+    src:"./images/paintings/fullSize/6.jpg",
+    thumbnail:"/images/paintings/thumbNails/6.jpg",
+    description:"Squeeze"
+  },
+  {
+    id:5,
+    src:"./images/paintings/fullSize/5.jpg",
+    thumbnail:"/images/paintings/thumbNails/5.jpg",
+    description:"Mirror"
+  },
+  {
+    id:4,
+    src:"./images/paintings/fullSize/4.jpg",
+    thumbnail:"/images/paintings/thumbNails/4.jpg",
+    description:"Don't Watch"
+  },
+  {
+    id:3,
+    src:"./images/paintings/fullSize/3.jpg",
+    thumbnail:"/images/paintings/thumbNails/3.jpg",
+    title:"Self Actualized Apocalypse"
+  },
+  {
+    id:2,
+    src:"./images/paintings/fullSize/2.jpg",
+    thumbnail:"/images/paintings/thumbNails/2.jpg",
+    description:"Why guy in tub"
+  },
+  {
+    id:1,
+    src:"./images/paintings/fullSize/1.jpg",
+    thumbnail:"/images/paintings/thumbNails/1.jpg",
+    description:"Chef's Special"
   }
-  ]
-
-export {P2020, P2021}
+]
+export {Paintings}
