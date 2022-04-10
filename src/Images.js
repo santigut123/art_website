@@ -1,5 +1,34 @@
 const Paintings = [
   {
+    id:21,
+    src:"./images/paintings/fullSize/21.jpg",
+    thumbnail:"/images/paintings/thumbNails/21.jpg",
+    description:"A painful hermaphroditic birth"
+
+  },
+  {
+    id:20,
+    src:"./images/paintings/fullSize/20.jpg",
+    thumbnail:"/images/paintings/thumbNails/20.jpg",
+    description:"How many for a penny?"
+
+  },
+  {
+    id:19,
+    src:"./images/paintings/fullSize/19.jpg",
+    thumbnail:"/images/paintings/thumbNails/19.jpg",
+    description:"An inevitable, indemonstrable path"
+
+  },
+
+  {
+    id:18,
+    src:"./images/paintings/fullSize/18.jpg",
+    thumbnail:"/images/paintings/thumbNails/18.jpg",
+    description:"Handheld future, holy merciful parasite"
+
+  },
+  {
     id:17,
     src:"./images/paintings/fullSize/17.jpg",
     thumbnail:"/images/paintings/thumbNails/17.jpg",
